@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{28e41d13-d74d-475e-8341-7f83c83d6d87}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{bdc268cb-802f-4cd1-aa00-1da8fc51a033}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8294ec0b-acf4-4c19-9602-7dc735b33eda}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\board.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw_chess_board.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reversi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\draw_chess_board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\reversi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\InitialPos1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\InitialPos2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\InitialPos3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\Reversi.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources\Reversi.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
